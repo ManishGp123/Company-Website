@@ -1,0 +1,106 @@
+/*styling the body element by adding the background image and set it to the cover and learn how to fix it when we scroll down and add font-family*/
+body{
+    font-family: Arvo, serif;
+    background: url(https://freenaturestock.s3.amazonaws.com/1487.jpg) center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+/*style brand*/
+.logo{
+    height: 30px;
+    width: 30px;
+    
+}
+
+/*style our navigation bar*/
+.navbar-inverse{
+    background: rgba(0,0,0,0.5);
+} 
+.nav li{
+    color: white;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+.nav li:hover{
+    border-bottom: 1px solid #00FF88;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+/*style the jumbotron*/
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+/* limit the width of icon section*/
+
+/*style the icon section using bootstrap grid system*/
+.bodyimage{
+    height: 100px;
+   
+}
+.row{
+    margin-top: 30px;
+    text-align: center;
+}
+.col-md-4{
+    text-align: center;
+    margin-top: 20px;
+}
+.col-md-4 h2{
+    color: white;
+}
+.col-md-4 p{
+    color: white;
+    font-size: 15px;
+}
+/*style our context button*/
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
+.btn{
+    background-color: rgba(0,255,184,0.5);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 70px;
+    letter-spacing: 2px;
+}
+.btn:hover{
+    background-color:rgba(256,256,256,1);
+    border: none;
+    color: #00FF88;
+}
+/*style footer*/
+.footer{
+    color: gray;
+    background-color:(0,0,0,0.5);
+    font-size: 15px;
+    padding: 10px 0;
+    
+    
+}
+@media (max-width: 768px){
+    .bodyimage{
+        height: 70px;
+    }
+}
+.login{
+    float: right;
+    height: 20px;
+}
+.signup{
+    float: right;
+    height: 20px;
+}
